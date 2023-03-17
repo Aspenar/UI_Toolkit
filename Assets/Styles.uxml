@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Title" class="Titles" style="font-size: 30px; -unity-text-align: upper-center; height: 62px;">
+        <ui:Label text="Goosen" display-tooltip-when-elided="true" name="The_Game" class="Titles" style="color: rgba(255, 255, 255, 255); -unity-text-align: upper-center;" />
+    </ui:VisualElement>
+    <ui:Button text="Continue" display-tooltip-when-elided="true" name="Continue" class="Buttons" style="height: 87px; justify-content: center; align-items: center;" />
+    <ui:Button text="New Game" display-tooltip-when-elided="true" name="New_Game" class="Buttons" style="height: 110px;" />
+    <ui:Button text="Quit" display-tooltip-when-elided="true" name="Quit" class="Buttons" style="height: 100px;" />
+</ui:UXML>

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Styles.uss?fileID=7433441132597879392&amp;guid=ffcb003084540564d972db02a961e989&amp;type=3#Styles" />
+    <ui:VisualElement name="Title" class="Title" style="height: 79px;">
+        <ui:Label text="Goosen" display-tooltip-when-elided="true" name="Title_Text" class="Title" style="height: 79px;" />
+    </ui:VisualElement>
+    <ui:Button text="Continue" display-tooltip-when-elided="true" name="Continue" class="Buttons" />
+    <ui:Button text="New Game" display-tooltip-when-elided="true" name="New_Game" class="Buttons" />
+    <ui:Button text="Quit" display-tooltip-when-elided="true" name="Quit" class="Buttons" />
+</ui:UXML>
